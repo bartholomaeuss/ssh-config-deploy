@@ -4,7 +4,7 @@ forward="no"
 identity="id_rsa"
 
 show_help(){
-    echo "Deploy ssh config to $HOME/.ssh/config"
+    echo "Deploy basic ssh config to $HOME/.ssh/config"
     echo "usage: $0 [-f] [-i] [-r] [-s] [-h]"
     echo "  -f  enable forwarding; by default disabled "
     echo "  -i  private key file name"
